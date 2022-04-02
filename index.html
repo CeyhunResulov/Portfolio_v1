@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- section1 img -->
+    <section id="container">
+
+
+        <a class="close" href="#dropdown" onclick="getclose()">
+            <img src="img/cross.png" alt="">
+        </a>
+        <div class="container-header">
+
+            <a class="intro" href="#">
+                <h1>INTRO</h1>
+            </a>
+            <button class="container-header-btn">
+                <a class="info-bar" href="#dropdown" onclick="dropdown()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </button>
+
+        </div>
+        <div class="dropdown-parent">
+            <ul class="dropdown">
+                <li class="info-bar-list"><a href="#container">home</a></li>
+                <li class="info-bar-list"><a href="#container-information">about</a></li>
+                <li class="info-bar-list"><a href="#services">services</a></li>
+                <li class="info-bar-list"><a href="#education">qualification</a></li>
+                <li class="info-bar-list"><a href="#gallery">gallery</a></li>
+                <li class="info-bar-list"><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="container-body-user">
+            <i class="fas fa-angle-left" onclick="deyis()"></i>
+            <h4 class="user">I am Ceyhun</h4>
+            <h4 class="user-work">Am Front-end Developer</h4>
+            <i class="fas fa-angle-right" onclick="deyis()"></i>
+        </div>
+        <div class="container-body-work">
+            <span class="web-design">Web Design</span>
+            <span class="my-passion">My Passion</span>
+        </div>
+    </section>
+
+    <!-- section2 sosial -->
+    <section id="container-information">
+        <div class="container-information-box">
+            <div class="box-left">
+                <img src="picture/ab2.jpg" alt="">
+            </div>
+            <div class="box-right">
+                <div class="box-right-name">
+                    <h1>Resulov Ceyhun</h1>
+                    <h4>Web Design & Front-end Developer</h4>
+                </div>
+                <div class="btn-readmore">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br> commodo ligula eget dolor.
+                        Aenean
+                        massa. Cum sociis natoque <br> penatibus adipiscing elit. Aenean commodo ligula eget dolor.</p>
+
+                    <a href="#services">READ MORE</a>
+                </div>
+                <ul class="box-right-sosial">
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa fa-rss"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section id="personal-data">
+        <div class="personal-data-grid">
+            <div class="box-white">
+                <div class="data-header">
+                    <h1>My Personal Data</h1>
+                </div>
+                <div class="container-data">
+                    <ul class="data-list-first">
+                        <li>Name</li>
+                        <li>D.O.B</li>
+                        <li>PHONE</li>
+                        <li>ADDRESS</li>
+                        <li>E-MAIL</li>
+                        <li>WEBSITE</li>
+                    </ul>
+                    <ul class="data-list-second">
+                        <li>:Ceyhun</li>
+                        <li>:23.04.2000</li>
+                        <li>:070 832 22 15</li>
+                        <li>:Azerbaijan,Baku</li>
+                        <li><a href="">:ceyhunresulov23@gmail.com</a></li>
+                        <li><a href="">:www.myportfolio.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="link">
+                    <a href="">
+                        <span>DOWNLOAD</span>
+                    </a>
+                    <a href="">
+                        <span>HIRE ME</span>
+                    </a>
+                </div>
+            </div>
+            <div class="box-blue">
+                <div class="icon-orange">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h4>HTML</h4>
+            </div>
+            <div class="box-orange">
+               <div class="icon-blue">
+                    <i class="fab fa-css3"></i>
+               </div>
+                <h4>CSS</h4>  
+            </div>
+            <div class="box-orange">
+                <div class="icon-blue">
+                    <i class="fab fa-sass"></i>
+                </div>
+                <h4>SASS</h4>
+            </div>
+            <div class="box-blue">
+                <div class="icon-orange">
+                    <i class="fab fa-js" style="color: white;"></i>
+                </div>
+                <h4>JS</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 services -->
+    <section id="services">
+        <div class="background">
+            <div class="service-grid">
+                <div class="service-header">
+                    <h1 class="header">Services</h1>
+                </div>
+                <div class="service-blue">
+                    <i class="fas fa-users"></i>
+                    <span>3500</span>
+                    <h4>CLIENTS</h4>
+                </div>
+                <div class="service-orange">
+                    <i class="fas fa-coffee"></i>
+                    <span>650</span>
+                    <h4>COFFEE</h4>
+                </div>
+                <div class="service-white">
+                    <div class="white-row" style="padding: 0;">
+                        <div>
+                            <a class="row-link" href="">1</a>
+                        </div>
+                        <div class="row-text">
+                            <h3>Development</h3>
+                            <p>Lorem ipsum dolor sitamet,consectetuer adipiscing elit.Aenean commodo ligula eget</p>
+                        </div>
+                    </div>
+                    <div class="white-row">
+                        <div>
+                            <a class="row-link" href="">2</a>
+                        </div>
+                        <div class="row-text">
+                            <h3>Typography</h3>
+                            <p>Lorem ipsum dolor sitamet,consectetuer adipiscing elit.Aenean commodo ligula eget</p>
+                        </div>
+                    </div>
+                    <div class="white-row">
+                        <div>
+                            <a class="row-link" href="">3</a>
+                        </div>
+                        <div class="row-text">
+                            <h3>Graphic Design</h3>
+                            <p>Lorem ipsum dolor sitamet,consectetuer adipiscing elit.Aenean commodo ligula eget</p>
+                        </div>
+                    </div>
+                    <div class="white-row">
+                        <div>
+                            <a class="row-link" href="">4</a>
+                        </div>
+                        <div class="row-text">
+                            <h3>Adobe Photoshop</h3>
+                            <p>Lorem ipsum dolor sitamet,consectetuer adipiscing elit.Aenean commodo ligula eget</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-orange">
+                    <i class="fas fa-trophy"></i>
+                    <span>1021</span>
+                    <h4>AWARDS</h4>
+                </div>
+                <div class="service-blue">
+                    <i class="far fa-lightbulb"></i>
+                    <span>1010</span>
+                    <h4>IDEAS</h4>
+                </div>
+                <div></div>
+            </div>
+
+        </div>
+    </section>
+    <!-- section-5 education -->
+    <section id="education">
+        <div class="education-grid">
+            <div class="edu-white">
+                <h1>EDUCATION</h1>
+            </div>
+            <div class="edu-blue">
+                <span>2011-2014</span>
+                <h3>Bachelor Degree Of Education</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="edu-orange">
+                <span>2011-2014</span>
+                <h3>Bachelor Degree Of Education</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="edu-blue">
+                <span>2011-2014</span>
+                <h3>Bachelor Degree Of Education</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="edu-orange">
+                <span>2011-2014</span>
+                <h3>Bachelor Degree Of Education</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+        </div>
+    </section>
+    <!-- section-6 experience -->
+    <section id="experience">
+        <div class="exp-grid">
+            <div class="exp-white">
+                <h1>EXPERIENCE</h1>
+            </div>
+            <div class="exp-blue">
+                <span>2012-2014</span>
+                <h3>WebDesigner – Mutation Media</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="exp-orange">
+                <span>2012-2014</span>
+                <h3>WebDesigner – Mutation Media</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="exp-blue">
+                <span>2012-2014</span>
+                <h3>WebDesigner – Mutation Media</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+            <div class="exp-orange">
+                <span>2012-2014</span>
+                <h3>WebDesigner – Mutation Media</h3>
+                <p>Lorem ipsum dolor sit amet,</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- section-7 gallery -->
+    <section id="gallery">
+        <div class="gallery-back-color"></div>
+        <div class="gallery-back">
+            <div class="gallery-back-modal">
+                <img src="" alt="" data="" class="modal-picture">
+            </div>
+            <div class="gallery-close">
+                <i class="fas fa-times" onclick="closeGallery()"></i>
+            </div>
+            <div class="gallery-picture-change">
+                <div class="gallery-picture-change-left" onclick="previous()" onmouseover="showAngle(this)"
+                    onmouseout="hiddenAngle(this)">
+                    <i class="fas fa-angle-left" onclick="previous()"></i>
+                </div>
+                <div class="gallery-picture-change-right" onclick="next()" onmouseover="showAngle(this)"
+                    onmouseout="hiddenAngle(this)">
+                    <i class="fas fa-angle-right" onclick="next()"></i>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gall-head">
+                <span>Gallery</span>
+            </div>
+            <!-- <div onclick="gallery(this)">
+                <img class="picture"
+                    src="https://demo.w3layouts.com/demos_new/template_demo/09-02-2018/intro-demo_Free/669036360/web/images/g1.jpg"
+                    alt="" data="1">
+            </div> -->
+
+        </div>
+    </section>
+    <!-- section 8 contact -->
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="header-contact">
+                <h1>Contact</h1>
+            </div>
+            <div class="name" onclick="inputData(this)">
+                <input type="text" name="text" class="text" placeholder="Name">
+            </div>
+            <div class="last-name" onclick="inputData(this)">
+                <input type="text" name="text" class="text" placeholder="Last Name">
+            </div>
+            <div class="email" onclick="inputData(this)">
+                <input type="email" name="email" class="text" placeholder="Email" />
+            </div>
+            <div class="phone" onclick="inputData(this)">
+                <input type="tel" name="tel" class="text" placeholder="Phone">
+            </div>
+            <div class="message" onclick="inputData(this)">
+                <textarea id="message" placeholder="Message" rows="11"></textarea>
+            </div>
+            <div class="send" onclick="inputData(this)">
+                <input type="submit" name="send" id="send" value="SEND">
+            </div>
+        </div>
+    </section>
+    <!-- section-9 map -->
+    <section id="map">
+        <div class="map-child">
+            <div class="map-pict">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.3773365095362!2d49.849354015257305!3d40.40049087936702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d5d7587bca7%3A0x1a5f46126ca333e4!2zR2Vuw6dsaWs!5e0!3m2!1str!2s!4v1644836537853!5m2!1str!2s"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div class="address">
+                <div class="address-data">
+                    <h1>Address</h1>
+                    <span>756 st hill,south pole,</span>
+                    <span>New York,10002, USA</span>
+                </div>
+                <div class="address-data">
+                    <h1>Contact</h1>
+                    <span>+(000) 123 4565 32</span>
+                    <span>+(010) 123 4565 35</span>
+                </div>
+                <div class="address-data">
+                    <h1>Email</h1>
+                    <a href="email">ceyhunresulov23@gmail.com</a>
+                    <a href="email">ceyhunresulov23@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-10 end bar  -->
+    <section id="end-bar">
+        <ul class="end-bar-sosial">
+            <li>
+                <a href="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-rss"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fab fa-vk"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <script src="./js/potfolio.js">
+    </script>
+</body>
+
+</html>
