@@ -23,7 +23,7 @@ a {
 #container {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-image: url(/img/istockphoto-1311473275-170667a.jpg);
+  background-image: url(/img/abstract.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -773,7 +773,7 @@ margin-bottom: 10px;
 #gallery {
   width: 100%;
   height: 700px;
-  background-color: #00c4ff;
+  background-color: dimgray;
   padding-bottom: 90px;
   position: relative;
   
@@ -807,14 +807,12 @@ margin-bottom: 10px;
   
 .gall-head{
   grid-column: 1/5;
-  background-color: #00c4ff !important;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .gall-head span{ 
-  background-color: #00c4ff !important;
-  color: white;
+  color: black;
   font-size: 55px;
   font-weight:100;
   letter-spacing: 2;
@@ -1075,7 +1073,7 @@ span,a{
   font-size: 12px;
 } 
 .end-bar-sosial li:hover{
-  background-color: #00c4ff;
+  background-color: dimgray;
   transition: ease .5s;
 }
 
