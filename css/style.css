@@ -988,13 +988,13 @@ grid-column: 1/3;
   letter-spacing: 2px;
 }
 .text:hover{
-  border:1px solid #00c4ff;
+  border:1px solid dimgray;
 }
 #message:hover{
-  border: 1px solid #00c4ff;
+  border: 1px solid dimgray;
 }
 #send:hover{
-  color: #00c4ff;
+  color: dimgray;
   transition: ease .5s;
 }
 /* section-9 map */
@@ -1021,7 +1021,7 @@ span,a{
   display: block;
 }
 .address-data h1{
-  color: #00c4ff;
+  color: dimgray;
   letter-spacing: 2px;
   font-size: 25px;
   
